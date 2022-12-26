@@ -1,12 +1,4 @@
-Riptide
+Portfolio
 ===
 
-Riptide is an animation project for the Drawing IV class at Universidad de Nari�o. It is based in the song ["Riptide" by Vance Joy](https://open.spotify.com/track/3JvrhDOgAt6p7K8mDyZwRd). This web-page is made using [Sapper](https://sapper.svelte.dev/) and is going to be used in live presentations to redirect people to the song and author.
-
-# Running
-1. Install [NodeJs](https://nodejs.org/en/).
-2. Clone the repository `git clone https://github.com/Chevyself/portfolio`.
-3. Run `npm i`.
-4. Start developing with `npm run dev`.
-
-> Check the [Github workflow](https://github.com/Chevyself/portfolio/tree/master/.github/workflows) for running in [Github pages](https://pages.github.com/).
+This project may be used as reference for creating a Portfolio using [Sapper](https://sapper.svelte.dev/)
