@@ -1,0 +1,20 @@
+/* Make that link hover color changes slowly in and out */
+
+
+
+a, .nav-hover a {
+    transition: all 0.3s ease-in-out;
+}
+
+
+@import "variables";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+.bg-gray-800 {
+    /* Changes the background color to the variable $gray-800 */
+    background-color: $gray-800;
+}
+.bg-gray-700 {
+    /* Changes the background color to the variable $gray-800 */
+    background-color: $gray-700;
+}
