@@ -37,15 +37,22 @@
     textareas.forEach((textarea) => {
       textarea.addEventListener("input", () => {
         textarea.style.height = "auto";
-        textarea.style.height = textarea.scrollHeight + "px"; 
+        textarea.style.height = textarea.scrollHeight + "px";
         // Change the height of #main accordingly to the height of the textarea
         const main = document.querySelector("#main");
         main.style.height = "auto";
-        main.style.height = (main.scrollHeight > window.innerHeight ? (main.scrollHeight + (window.innerHeight * 0.5)) : main.scrollHeight) + "px";
+        main.style.height =
+          (main.scrollHeight > window.innerHeight
+            ? main.scrollHeight + window.innerHeight * 0.5
+            : main.scrollHeight) + "px";
+      });
     });
   });
-  });
 </script>
+
+<svelte:head>
+  <title>Contact - Chevy</title>
+</svelte:head>
 
 <header>
   <Navbar />

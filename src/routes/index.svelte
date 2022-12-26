@@ -3,36 +3,9 @@
   import Work from "../components/Work.svelte";
 </script>
 
-<style>
-  #landing {
-    animation: fadeInUp 1.7s;
-  }
-
-  @keyframes fadeInUp {
-    from {
-      opacity: 0;
-      transform: translate3d(0, 40px, 0);
-    }
-
-    to {
-      opacity: 1;
-      transform: none;
-    }
-  }
-
-  #landing {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  #ready {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-</style>
+<svelte:head>
+  <title>Backend Developer - Chevy</title>
+</svelte:head>
 
 <header>
   <Navbar />
@@ -65,3 +38,34 @@
     >
   </div>
 </section>
+
+<style>
+  #landing {
+    animation: fadeInUp 1.7s;
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 40px, 0);
+    }
+
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  #landing {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #ready {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+</style>
